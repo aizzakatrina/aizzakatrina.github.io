@@ -14,7 +14,6 @@ body {
     background-color: #33cccc;
     font-family: Georgia;
     font-weight: bold;
-    font-size: 2em; /* remove this, it doesn't work */
 }
 
 .h2-a {
@@ -28,9 +27,28 @@ body {
     width: 150px;
 }
 
-.box-1 {
-    /* nothing yet */
+.active {
+    padding:2px;
+    border:2px solid #33cccc;
+}
 
+.current-plot {
+    width: 600px;
+}
+
+.compare-img {
+    width: 80%;
+}
+
+.compare {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box-1 {
+    display: inline-block;
 }
 
 .box-2 {
@@ -40,4 +58,42 @@ body {
 
 .p {
     color: slategray;
+}
+
+.navbar-brand{
+    color:#777;
+}
+
+.row-compare {
+    padding-top: 36px;
+}
+
+.inner-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.hr {
+    display: none;
+}
+
+@media (max-width:991px){
+    .nav-fixed-a {
+        background-color: #33cccc;
+    }
+
+    .inner-container {
+        width: 75%;
+    }
+
+    .hr {
+        display: block;
+    }
+
+    .row-compare {
+        padding-top: 0px;
+    }
 }
