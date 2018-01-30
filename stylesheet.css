@@ -1,17 +1,43 @@
-body {
-    background-color: black;
-    color: white;
-    font-size: 1em;
+body { 
+    padding-top: 70px; 
 }
-h1 {
-    text-align: center;
-    background-color: steelblue;
-    color: white;
-    font-size: 4em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+
+.body-a {
+    background-color: #f2f2f2;
+}
+
+.nav-fixed-a {
+    background-color: white;
+}
+
+.navbar-a {
+    background-color: #33cccc;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 2em; /* remove this, it doesn't work */
+}
+
+.h2-a {
+    color: #33cccc;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.thumbnail-a {
+    padding: 5px;
+    width: 150px;
+}
+
+.box-1 {
+    /* nothing yet */
 
 }
-h2 {
-    text-align: center;
+
+.box-2 {
+    padding: 2em;
+    background-color: white;
+}
+
+.p {
+    color: slategray;
 }
