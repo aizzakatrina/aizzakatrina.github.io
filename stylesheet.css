@@ -1,9 +1,11 @@
 body { 
     padding-top: 70px; 
+    padding-bottom: 20px;
 }
 
 .body-a {
     background-color: #f2f2f2;
+    margin-left: auto;
 }
 
 .nav-fixed-a {
@@ -53,7 +55,7 @@ body {
 
 .box-2 {
     padding: 2em;
-    background-color: white;
+    background-color: white;    
 }
 
 .p {
@@ -80,6 +82,10 @@ body {
     display: none;
 }
 
+.minimized {
+    padding-top: 0px;
+}
+
 @media (max-width:991px){
     .nav-fixed-a {
         background-color: #33cccc;
@@ -95,5 +101,9 @@ body {
 
     .row-compare {
         padding-top: 0px;
+    }
+
+    .minimized {
+        padding-top: 20px;
     }
 }
