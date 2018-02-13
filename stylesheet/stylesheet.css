@@ -1,0 +1,78 @@
+.center {
+    text-align: center;
+}
+
+.body-intro {
+    
+    height:100%;
+    background: #ffffff url("../images/sky.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 150px; 
+}
+
+.row-height {
+    height: 200px; 
+}
+
+.title-page {
+    font-family: Trebuchet MS;
+    font-size: 46px;
+    color: white;
+}
+
+.content p {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-bottom: 10px;
+}
+
+li a {
+    display: block;
+    color: steelblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+.cool-link {
+    display: inline-block;
+    color: steelblue;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .2s;
+}

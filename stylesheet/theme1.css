@@ -1,0 +1,84 @@
+.center {
+    text-align: center;
+}
+
+.body-theme1 {
+    background: #ffffff;
+    padding-top: 150px; 
+}
+
+.row-height {
+    height: 200px; 
+}
+
+.title {
+    font-family: Trebuchet MS;
+    font-size: 46px;
+    color: #E3625D;
+}
+
+.content b {
+    color: #E3625D;
+}
+
+.content a {
+    color: #E3625D;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-bottom: 10px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+li a:hover {
+    color: #E3625D;
+    text-decoration: none;
+}
+
+.cool-link {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#E3625D;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .2s;
+}
+
