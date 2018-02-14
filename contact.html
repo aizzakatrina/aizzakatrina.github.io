@@ -26,19 +26,27 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <div class="content">
-                    <p>
-                        <a href="mailto:aizzakatrina@live.com" alt="email"><img src="images/email.png" alt="email"></a>
-                        <a href="https://github.com/aizzakatrina" target="_new"><img src="images/github.png" alt="Github"></a>
-                        <a href="https://www.linkedin.com/in/aizza-asuncion/" target="_new"><img src="images/linkedin.png" alt="Linkedin"></a>
-                        <a href="https://keybase.io/vizzvk" target="_new"><img src="images/keybase2.png" alt="Keybase"></a>
-                    <p>
+                        <div id="social">
+                        <a class="social" href="mailto:aizzakatrina@live.com" alt="email"><img src="images/email.png" alt="Email | aizzakatrina@live.com"></a>
+                        <a class="social" href="https://github.com/aizzakatrina" target="_new"><img src="images/github.png" alt="Github | aizzakatrina"></a>
+                        <a class="social" href="https://www.linkedin.com/in/aizza-asuncion/" target="_new"><img src="images/linkedin.png" alt="Linkedin | Aizza Asuncion"></a>
+                        <a class="social" href="https://keybase.io/vizzvk" target="_new"><img src="images/keybase2.png" alt="Keybase: vizzvk"></a>
+                        <div id="socialtext"></div>
+                            <script>
+                                var socialites = document.querySelectorAll('#social img');
+                                for (var i = 0 ; i < socialites.length; i++){
+                                    socialites[i].onmouseover = function(e){document.getElementById("socialtext").innerHTML = this.alt;}
+                                    socialites[i].onmouseleave = function(e){document.getElementById("socialtext").innerHTML = '';} 
+                                }
+                            </script>    
+                        </div>
                     </div>
                 </div>
         </div>
         <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-6"><hr>       
-                            <h1 class="title">L e t s C o n n e c t</h1>                       
+                            <h1 class="title">C o n t a c t M e</h1>                       
                 </div>
         </div>
     </div>

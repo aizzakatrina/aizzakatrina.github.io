@@ -82,3 +82,38 @@ li a:hover {
     transition: width .2s;
 }
 
+
+img {
+    max-width: 100%;
+    margin-bottom: 60px;
+    display: block;
+}
+
+
+#socialtext { 
+    width:100%; 
+    margin: 10px auto; 
+    height: 30px;
+    color: #E3625D;
+}
+#social {
+    text-align: left; 
+    margin-top: 10px;
+}
+.social {
+    border:0; 
+    border-radius:0; 
+    box-sizing:border-box; 
+    -webkit-transition: 0.5s ease; 
+    -moz-transition: 0.5s ease; 
+    -ms-transition: 0.5s ease; 
+    -o-transition: 0.5s ease; 
+    transition: 0.5s ease;
+}
+.social:hover {
+    background:#888; 
+    border-radius: 50%;
+}
+.social img { 
+    display: inline;
+}
