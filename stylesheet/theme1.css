@@ -17,6 +17,12 @@
     color: #E3625D;
 }
 
+.content {
+    height:200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .content b {
     color: #E3625D;
 }
