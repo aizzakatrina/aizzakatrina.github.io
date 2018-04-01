@@ -23,8 +23,14 @@
     color: white;
 }
 
+.ss-frame {
+    height:200px;
+}
+
 .content {
     color: white;
+    padding-left: 10px;
+    padding-right: 22px;
 }
 
 ul {
